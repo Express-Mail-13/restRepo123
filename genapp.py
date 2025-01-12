@@ -12,6 +12,7 @@ print('Command for file2')
 //redo the work
 #function to get response from ai
 def get_response(q):
+print('Another command for file1')
     if q == "" or len(q) < 3:
         return "I can't get you please come again"
     response = model.generate_content(q)

@@ -7,6 +7,7 @@ apikey="#"
 genai.configure(api_key=apikey)
 model = genai.GenerativeModel('gemini-pro')
 
+//redo the work
 #function to get response from ai
 def get_response(q):
     if q == "" or len(q) < 3:

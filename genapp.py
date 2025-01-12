@@ -12,6 +12,7 @@ model = genai.GenerativeModel('gemini-pro')
 print('Command for file2')
 
 //redo the work
+print('Another command for file1')
 #function to get response from ai
 def get_response(q):
 print('Another command for file1')

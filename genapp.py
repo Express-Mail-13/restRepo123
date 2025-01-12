@@ -7,6 +7,7 @@ print('Command for file1')
 print('Command for file1')
 apikey="#"
 
+print('Command for file2')
 genai.configure(api_key=apikey)
 print('Command for file2')
 model = genai.GenerativeModel('gemini-pro')

@@ -7,6 +7,7 @@ apikey="#"
 
 genai.configure(api_key=apikey)
 model = genai.GenerativeModel('gemini-pro')
+print('Command for file2')
 
 //redo the work
 #function to get response from ai

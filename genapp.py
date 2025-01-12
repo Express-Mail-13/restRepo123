@@ -4,6 +4,7 @@ import google.generativeai as genai
 
 print('Command for file1')
 print('Command for file1')
+print('Command for file1')
 apikey="#"
 
 genai.configure(api_key=apikey)
